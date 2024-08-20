@@ -1,0 +1,12 @@
+﻿Cálculo do Menor Número de Tijolos Cortados
+Nesta etapa, iteramos sobre cada linha e, para cada tijolo, calculamos a posição da borda acumulada.
+A cada posição de borda, incrementamos um contador no dicionário contagemArestas, que armazena o número de bordas em cada posição.
+Como estamos percorrendo todos os tijolos uma vez e realizando operações de inserção e atualização no dicionário (que tem complexidade O(1) para cada inserção/atualização), essa parte também tem complexidade O(n).
+
+Complexidade Total
+A complexidade total do algoritmo é dominada pelas etapas de leitura, armazenamento e cálculo das bordas. Cada uma dessas etapas tem complexidade O(n), onde n é o número total de tijolos.
+Portanto, a complexidade de tempo do algoritmo é: 𝑂(𝑛) O(n)
+
+Complexidade Espacial
+A complexidade espacial é determinada principalmente pelo armazenamento da parede (O(n)) e pelo dicionário contagemArestas.
+No pior caso, se cada tijolo começa e termina em uma posição diferente, o dicionário armazenaria n entradas diferentes. Portanto, a complexidade espacial também é O(n).
