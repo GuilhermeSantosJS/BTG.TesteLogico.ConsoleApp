@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTG.TesteLogico.ConsoleApp", "BTG.TesteLogico.ConsoleApp\BTG.TesteLogico.ConsoleApp.csproj", "{5FAC9BB8-5BE7-46E6-A0DF-CD1EB657D2BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTG.TesteLogico.Application", "BTG.TesteLogico.Application\BTG.TesteLogico.Application.csproj", "{C15CE525-F7B3-4E7B-95D2-3599AF36A4F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FAC9BB8-5BE7-46E6-A0DF-CD1EB657D2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAC9BB8-5BE7-46E6-A0DF-CD1EB657D2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAC9BB8-5BE7-46E6-A0DF-CD1EB657D2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAC9BB8-5BE7-46E6-A0DF-CD1EB657D2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15CE525-F7B3-4E7B-95D2-3599AF36A4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15CE525-F7B3-4E7B-95D2-3599AF36A4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15CE525-F7B3-4E7B-95D2-3599AF36A4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15CE525-F7B3-4E7B-95D2-3599AF36A4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B2981AA-8F77-4D7E-96FB-68FA0E516EB8}
+	EndGlobalSection
+EndGlobal
