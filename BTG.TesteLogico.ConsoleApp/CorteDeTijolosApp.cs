@@ -1,4 +1,6 @@
-﻿using BTG.TesteLogico.Application.Services;
+﻿using BenchmarkDotNet.Running;
+using BTG.TesteLogico.Application.Benchmark;
+using BTG.TesteLogico.Application.Services;
 static void ExecutarAppCorteDeTijolos()
 {
     CorteDeTijolosService corteDeTijolos = new();
@@ -24,8 +26,12 @@ static void ExecutarAppCorteDeTijolos()
     int resultado = corteDeTijolos.CorteDeTijolos(paredeDeTijolos);
 
     Console.WriteLine($"O menor número de tijolos cortados é: {resultado}");
+
+    //Executar em RELEASE teste de Desempenho da aplicação seguindo padrões de Escalabilidade
+    var testeBigONotation = BenchmarkRunner.Run<CorteDeTijolosBenchmark>();
 }
 
 ExecutarAppCorteDeTijolos();
+
 
 
